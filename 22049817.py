@@ -7,6 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import MinMaxScaler
 from matplotlib.ticker import FuncFormatter
 
+# Read Csv File
 df_countries=pd.read_csv('C:\\Users\\DELL\\Downloads\\3Cluster\\API_EG.ELC.ACCS.ZS_DS2_en_csv_v2_6299951.csv',skiprows=4)
 
 def plot_country_data(country_name, indicator_name, df_countries):
